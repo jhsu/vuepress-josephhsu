@@ -16,6 +16,6 @@ jobs:
       run: echo Hello, world!
     - name: Run a multi-line script
       run: |
-        yarn install --pure-lockfile
+        yarn install
         yarn run build
         ./node_modules/bin/netlify deploy
